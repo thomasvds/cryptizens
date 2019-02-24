@@ -1,0 +1,159 @@
+[
+  {
+    "title": "Seraphin",
+    "link": "https://seraphin.be",
+    "description": "The first online insurance broker in Belgium, directly connected with 30+ insurance companies.",
+    "image": "seraphin.jpg",
+    "tags": ["RubyOnRails","JS","Management","CTO"],
+    "active": true
+  },
+  {
+    "title": "Hey",
+    "link": "https://hey.network",
+    "description": "A new breed of social network allowing you to chat live everywhere on the web, powered by the Blockchain",
+    "image": "hey.png",
+    "tags": ["Tokenization","SmartContracts","SocialNetwork"],
+    "active": true
+  },
+  {
+    "title": "ZENPS.IO",
+    "link": "https://zenps.io",
+    "description": "The best NPS® collection tool for startups, offering a powerful NPS-as-a-Service set of APIs and integrations.",
+    "image": "zenps.png",
+    "tags": ["NPS","SaaS","CustomerSuccess"],
+    "active": true
+  },
+  {
+    "title": "Law is Code",
+    "link": "https://lawiscode.io",
+    "description": "A series of workshops for lawyers to sharpen their digital skills on LegalTech and Smart Contracts.",
+    "image": "lawiscode.png",
+    "tags": ["LegalTech","SmartContracts","Workshops"],
+    "active": true
+  },
+  {
+    "title": "FullSpeed Dating",
+    "link": "https://fullspeeddating.org",
+    "description": "Giving a whole new meaning to the concept of speed dating through running.",
+    "image": "fullspeeddating.jpg",
+    "tags": ["Networking","Running","VueTyper"],
+    "active": true
+  },
+  {
+    "title": "Fovento",
+    "link": "http://www.fovento.be/",
+    "description": "A volunteering marketplace for skilled professionals to help great non-profits.",
+    "image": "fovento.png",
+    "tags": ["MarketPlace","Charity","RubyOnRails"],
+    "active": false
+  },
+  {
+    "title": "Binderz.io MVP",
+    "link": "https://binderz.cryptizens.io",
+    "description": "The minimum viable product of Binderz.io, a venture targeting document notarization on the Blockchain.",
+    "image": "binderz.png",
+    "tags": ["ProofOfExistence","Corporate","Hashes"],
+    "active": false
+  },
+  {
+    "title": "Blockchain insurance ledger",
+    "link": "http://lab.seraphin.be/?lang=en",
+    "description": "First Blockchain-based insurance ledger proof-of-concept in Belgium, at Seraphin.be.",
+    "image": "insurance.png",
+    "tags": ["InsurTech","DLT","PoC"],
+    "active": false
+  },
+  {
+    "title": "Urban crypto bounty hunt",
+    "link": "https://medium.com/@vanderstraeten.thomas/cryptorun-warm-up-i-just-hid-4x0-25-eth-in-brussels-let-the-bounty-hunt-start-d83d4cb8c7a0",
+    "description": "Free Ether hidden in Brussels, with secret QR codes in the best running spots. Will you crack the riddles?",
+    "image": "bountyhunt.png",
+    "tags": ["Bounty","Smart contract riddle","QR codes"],
+    "active": false
+  },
+  {
+    "title": "Cryptospace.be",
+    "link": "https://cryptospace.be",
+    "description": "The whole Belgian Blockchain ecosystem, made explorable with a flying particles map.",
+    "image": "cryptospace.png",
+    "tags": ["Social networks","Gephi","Belgium"],
+    "active": false
+  },
+  {
+    "title": "Aragon organization",
+    "link": "http://aragon.aragonpm.com/",
+    "description": "The experimentable unstoppable organization governing Cryptizens on the Aragon network - cryptizens.aragonid.eth.",
+    "image": "aragon.jpeg",
+    "tags": ["Aragon","Smart organization","Governance"],
+    "active": false
+  },
+  {
+    "title": "Etherlearn",
+    "link": "https://etherlearn.cryptizens.io",
+    "description": "A Blockchain and smart contracts laboratory, to learn and discover that mining can crash your browser.",
+    "image": "etherlearn.png",
+    "tags": ["Blockchain basics","Mining simulator"],
+    "active": false
+  },
+  {
+    "title": "A Fistful of Satoshis",
+    "link": "https://afistfulofsatoshis.cryptizens.io",
+    "description": "A Blockchain-based Western shooting game with a bit of gambling, all with cowboys and Colts and stuff.",
+    "image": "afistfulofsatoshis.png",
+    "tags": ["Ethereum gambling","Billy The Kid","Sheriff"],
+    "active": false
+  },
+  {
+    "title": "Cryptorun Brussels",
+    "link": "https://cryptorun.brussels",
+    "description": "Ultrarunning 60km around Brussels for BeCode, with a crypto fund raising and a Blockchain-propelled GPS.",
+    "image": "cryptorun.png",
+    "tags": ["Smart contracts","Oracles","Charity run"],
+    "active": false
+  },
+  {
+    "title": "Everstories.city",
+    "link": "https://everstories.cryptizens.io",
+    "description": "An artistic project to let anyone engrave stories on the Blockchain, to safeguard the memory of our cities.",
+    "image": "everstories.png",
+    "tags": ["Blockchain-as-a-DB","Urban art"],
+    "active": false
+  },
+  {
+    "title": "Smart Contracts 101",
+    "link": "https://www.slideshare.net/ThomasCharlesVanderstraeten/ethereum-smart-contract-101-with-cryptizensio",
+    "description": "Finally, a slideshow about smart contracts that is not scarily complicated - even comes with kitties included!",
+    "image": "smartcontracts.png",
+    "tags": ["Slideshow","Blockchain","Smart contracts"],
+    "active": false
+  },
+  {
+    "title": "Ethereum Mom",
+    "link": "https://ethereum.mom",
+    "description": "A lovely lady helping you when too much Blockchain coding and bad documentation really hurt.",
+    "image": "ethereummom.png",
+    "tags": ["Solidity","Web3.js","Ask anything"],
+    "active": false
+  },
+  {
+    "title": "CryptoHoax",
+    "link": "https://cryptohoax.cryptizens.io",
+    "description": "A highly intelligent, highly random crypto-currencies quotes generator, to predict the delivery date of your Lambo.",
+    "image": "cryptohoax.png",
+    "tags": ["Cryptos","When moon","Random"]
+  },
+  {
+    "title": "Cyclopoly",
+    "link": "https://cyclopoly.brussels",
+    "description": "A Blockchain-based Brussels monopoly to incentivize more people to use their bikes.",
+    "image": "cyclopoly.png",
+    "tags": ["Game","ERC721","Oracle","Bike"]
+  },
+  {
+    "title": "Belgian Zip Codes API",
+    "link": "https://zip-codes.be/",
+    "description": "A friendly Belgian zip codes lookup API, with loads of fries, beer and chocolate.",
+    "image": "zipcodes.png",
+    "tags": ["API","Beer","Chocolate"]
+  }
+]
