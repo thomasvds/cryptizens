@@ -1,7 +1,7 @@
 <template lang="pug">
 .col-lg-4
   .card
-    img.card-img-top(:src="`images/${image}`" :alt="title")
+    img.card-img-top(:src="imageUrl" :alt="title")
     .card-body
       h5.card-title {{ title }}
       p.card-text {{ description }}
@@ -34,6 +34,14 @@ export default {
     tags: {
       type: Array,
       default: () => ['MotherShip', 'Psychedelic']
+    }
+  },
+  computed: {
+    imageUrl() {
+      // This trick enables us to load images from assets where they are
+      // timestamped (better for hashing), instead of reading from static:
+      // https://github.com/nuxt/nuxt.js/issues/448
+      return require(`~/assets/images/${this.image}.jpg`)
     }
   }
 }
