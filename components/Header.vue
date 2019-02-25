@@ -2,7 +2,7 @@
 div
   h1 ✨ Cryptizens
   h2 A high-energy launchpad for psychedelic tech ventures, by Thomas Vanderstraeten
-  .links <a href="https://medium.com/@vanderstraeten.thomas" target="_blank"><u>Blog</u></a>&nbsp;&nbsp;<a href="https://github.com/Cryptizens" target="_blank"><u>GitHub</u></a>&nbsp;&nbsp;<a href="mailto:hello@cryptizens.io"><u>Contact</u></a>&nbsp;&nbsp;<a href="mailto:hello@cryptizens.io"><u>Hire me</u></a>
+  .links <a href="https://medium.com/@vanderstraeten.thomas" target="_blank" rel="noopener"><u>Blog</u></a>&nbsp;&nbsp;<a href="https://github.com/Cryptizens" target="_blank" rel="noopener"><u>GitHub</u></a>&nbsp;&nbsp;<a href="mailto:hello@cryptizens.io"><u>Contact</u></a>&nbsp;&nbsp;<a href="mailto:hello@cryptizens.io"><u>Hire me</u></a>
 </template>
 
 <style lang="scss">

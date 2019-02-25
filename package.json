@@ -12,7 +12,10 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore . --fix",
     "precommit": "npm run lint",
     "preproduction": "npm run generate",
-    "production": "aws s3 cp dist/ s3://cryptizens --recursive --profile cryptizens"
+    "production": "aws s3 cp dist/ s3://cryptizens --recursive --profile cryptizens",
+    "postproduction": "npm run purge-cache && npm run set-cache-headers",
+    "purge-cache":"aws cloudfront create-invalidation --distribution-id E2T3UMQCXYWE62 --paths '/*' --profile cryptizens",
+    "set-cache-headers": "aws s3 cp s3://cryptizens/ s3://cryptizens/ --exclude '*' --include '*.js' --include '*.jpg' --include '*.png' --recursive --metadata-directive REPLACE --expires 2034-01-01T00:00:00Z --cache-control max-age=31536000,public --profile cryptizens"
   },
   "dependencies": {
     "cross-env": "^5.2.0",

@@ -5,7 +5,7 @@
     .card-body
       h5.card-title {{ title }}
       p.card-text {{ description }}
-      a(:href="`${link}?utm_source=cryptizens`" target="_blank")
+      a(:href="`${link}?utm_source=cryptizens`" target="_blank" rel="noopener")
         button.btn.btn-primary Discover
     .card-footer
       small.text-muted
@@ -41,7 +41,8 @@ export default {
       // This trick enables us to load images from assets where they are
       // timestamped (better for hashing), instead of reading from static:
       // https://github.com/nuxt/nuxt.js/issues/448
-      return require(`~/assets/images/${this.image}.jpg`)
+      // Don't forget to scale and compress all images first!
+      return require(`~/assets/images/thumbnails/${this.image}.jpg`)
     }
   }
 }
@@ -59,7 +60,7 @@ export default {
   color: white;
   margin-right: 3px;
   background-color: lighten(#67737a, 45%);
-  color: #67737a;
+  color: darken(#67737a, 20%);
 }
 
 h2 {

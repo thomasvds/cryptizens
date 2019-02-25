@@ -1,6 +1,6 @@
 <template lang="pug">
 .footer-container
-  | © 2019 Cryptizens.io / <a href="https://medium.com/@vanderstraeten.thomas" target="_blank"><u>Blog</u></a> / <a href="https://github.com/Cryptizens" target="_blank"><u>GitHub</u></a> / <a href="mailto:hello@cryptizens.io" target="_blank"><u>Contact</u></a>
+  | © 2019 Cryptizens.io / <a href="https://medium.com/@vanderstraeten.thomas" target="_blank" rel="noopener"><u>Blog</u></a> / <a href="https://github.com/Cryptizens" target="_blank" rel="noopener"><u>GitHub</u></a> / <a href="mailto:hello@cryptizens.io" target="_blank" rel="noopener"><u>Contact</u></a>
 </div>
 </template>
 
